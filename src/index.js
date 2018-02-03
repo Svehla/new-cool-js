@@ -1,10 +1,13 @@
 const R = require('ramda')
+const c = console.log
 const o = { a: { } };
 const lol = o?.a?.b
 const numbers = [1,2,3,10]
-  |> R.map(x => x * 2)
-  |> R.reduce( (a,b) => a + b )
-  |> R.add(1);
-  
-console.log(numbers); // [ 1, 2 ]
-console.log(lol); // undefined
+  |> R.map(R.multiply(2))
+  |> R.sum
+  |> R.add(1)
+
+const is5Larger4 = 5 |> R.lt(4)
+c(numbers)
+c(numbers)
+c(is5Larger4)
