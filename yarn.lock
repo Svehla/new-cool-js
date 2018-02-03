@@ -365,6 +365,14 @@ babel-messages@^6.23.0:
   dependencies:
     babel-runtime "^6.22.0"
 
+babel-plugin-functional-composition@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-functional-composition/-/babel-plugin-functional-composition-1.0.3.tgz#fa6167ee8c4e2351e42018fa17c1abd43bbc5eae"
+
+babel-plugin-pipe-composition@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-pipe-composition/-/babel-plugin-pipe-composition-0.1.1.tgz#4fbde6bc6907be62b25bdafcb563aef17563e32b"
+
 babel-plugin-syntax-async-functions@^6.8.0:
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-async-functions/-/babel-plugin-syntax-async-functions-6.13.0.tgz#cad9cad1191b5ad634bf30ae0872391e0647be95"
@@ -451,6 +459,14 @@ babel-plugin-transform-class-properties@^6.24.1:
     babel-plugin-syntax-class-properties "^6.8.0"
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
+
+babel-plugin-transform-console-log-variable-names@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-console-log-variable-names/-/babel-plugin-transform-console-log-variable-names-0.0.3.tgz#a6b910b7d72ca5cbde442960bf0f4e99662c1b41"
+  dependencies:
+    babel-types "^6.26.0"
+    lodash.flattendeep "^4.4.0"
+    lodash.get "^4.4.2"
 
 babel-plugin-transform-decorators@^6.24.1:
   version "6.24.1"
@@ -1201,6 +1217,14 @@ locate-path@^2.0.0:
   dependencies:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
+
+lodash.flattendeep@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.flattendeep/-/lodash.flattendeep-4.4.0.tgz#fb030917f86a3134e5bc9bec0d69e0013ddfedb2"
+
+lodash.get@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
 
 lodash@^4.17.4, lodash@^4.2.0:
   version "4.17.4"

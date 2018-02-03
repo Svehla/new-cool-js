@@ -16,10 +16,13 @@
     "@babel/plugin-proposal-pipeline-operator": "^7.0.0-beta.39",
     "babel-cli": "7.0.0-beta.3",
     "babel-loader": "8.0.0-beta.0 ",
+    "babel-plugin-pipe-composition": "^0.1.1",
     "babel-plugin-syntax-pipeline": "^0.1.0",
+    "babel-plugin-transform-console-log-variable-names": "^0.0.3",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
+    "babel-plugin-functional-composition": "^1.0.3",
     "babel-preset-stage-0": "^6.24.1"
   }
 }
