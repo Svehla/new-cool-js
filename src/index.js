@@ -7,7 +7,7 @@ const numbers = [1,2,3,10]
   |> R.sum
   |> R.add(1)
 
-const is5Larger4 = 5 |> R.lt(4)
+const is5Larger4 = (5 |> R.gt)(4)
 c(numbers)
 c(numbers)
 c(is5Larger4)
