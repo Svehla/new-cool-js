@@ -1,0 +1,25 @@
+{
+  "name": "babel-plugin-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel src/index.js --out-file dist/out.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/mattzeunert/babel-plugin-demo#readme",
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.39",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0-beta.39",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0-beta.39",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0-beta.39",
+    "babel-cli": "7.0.0-beta.3",
+    "babel-loader": "8.0.0-beta.0 ",
+    "babel-plugin-syntax-pipeline": "^0.1.0",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
